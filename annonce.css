@@ -1,0 +1,100 @@
+body{
+	
+}
+	
+}
+.header{
+	padding: 20px;
+	padding-top: 140px;
+	background-color: #F0F0F0;
+}
+
+.the_second{
+  position: fixed;
+  width: 100%;
+  height: 6rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+}
+.first,.ask,
+.there,.yes,
+.net,.work,
+.here,.computer{
+  padding-left: px;
+  color: white;
+  display: initial;
+  padding: 20px;
+}
+.computer{
+  margin-left: 20px;
+  border-right: solid 1px white;
+  border-left: solid 1px white;
+  line-height: 6rem;
+  height: 6rem;
+}
+h2{
+	border-bottom: solid 2px gray;
+	color: gray;
+	width: 83%;
+	padding: 30px;
+}
+h3{
+	border-bottom: solid 2px gray;
+	width: 80%;
+	background-color: gray;
+	width: 100%;
+	height: 40px;
+}
+.annonce{
+	background-color: gray;
+	width: 82%;
+	height: 40px;
+}
+form{
+	border: solid 2px gray;
+	width: 80%;
+	padding: 10px;
+}
+input[type="text"]{
+	width: 60%;
+	height: 40px;
+}
+.pragraphe{
+	background-color: #ffeebf;
+	font-family: "OpenSans",sans-serif;
+	width: 60%;
+}
+.root{
+	background-color: #87CEFA;
+	width: 62%;
+}
+.file_container{
+	position: relative;
+	text-align: center;
+	height: 150px;
+	width: 170px;
+	padding: 0;
+	border-radius: 4px;
+	background: #f2f2f2;
+	border: dashed 1px;
+	cursor: pointer;
+	display: inline-block;
+
+}
+.mrm {
+    margin-right: 20px;
+}
+.mts {
+    margin-top: 10px;
+}
+footer{
+	padding-top: 5px;
+	background-color: gray;
+	height: 50px;
+	text-align: center;
+	width: 100%;
+	margin-top: auto;
+}

@@ -1,0 +1,144 @@
+
+.the_second{
+  position: fixed;
+  width: 100%;
+  height: 6rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+}
+h3{
+  position: absolute;
+  justify-content: center;
+  width: 6rem;
+  height: 2rem;
+  left: 1rem;
+  color: #f56b2a;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: none;
+
+}
+h2{
+  height: 2.5rem;
+  width: 14rem;
+  margin-left: 70px;
+}
+.center,.map,
+.states{
+  margin-top: 90px;
+}
+
+.first,.ask,
+.there,.yes,
+.net,.work,
+.here,.computer{
+  padding-left: px;
+  color: white;
+  display: initial;
+  padding: 20px;
+}
+.computer{
+  margin-left: 20px;
+  border-right: solid 1px white;
+  border-left: solid 1px white;
+  line-height: 6rem;
+  height: 6rem;
+}
+@media (min-width:960px){
+  .ask,
+.there,.yes,
+.net,.work,
+.here,.computer{
+   padding: 0;
+   width: 100%;
+
+}
+}
+
+@media screen and(min-width:480px){
+  body{
+    padding: 0;
+    width: 100%;
+}
+.ask,
+.there,.yes,
+.net,.work,
+.here,.computer{
+ padding: 0;
+ width: 100%;
+ display: none;
+}
+}
+
+.computer{
+  padding-left: 1px;
+  border-right: solid 1px white;
+}
+.the_second{
+  background-color: #FF7F50;
+}
+.map{
+  margin-left: 13%;
+}
+.container{
+  display: flex;
+}
+.center{
+  margin-left: 10%;
+}
+.last{
+  display: flex;
+  list-style: none;
+  background-color: rgb(216,216,216);
+  padding-left: 7%;
+  width: auto;
+}
+ul{
+  list-style: none;
+
+}
+.footer{
+  display: flex;
+  padding-left: 7%;
+}
+footer{
+  background-color: rgb(96,96,96);
+  margin-bottom: auto;
+}
+.footer-1{
+  padding-left: 12%;
+}
+.footer-2{
+  display: flex;
+  padding-left: 10%;
+
+}
+.icon{
+ padding-left: 55%;
+}
+.employ,.vehicule,
+.mobile,.holyday,
+.house,.time,
+.hooby,.professionnel,
+.service,.outhere,
+.legal,.like,.about,
+.question,.out-home,
+.footer-2,.footer-1{
+  border-bottom: solid 1px gray;
+}
+a{
+  background: #6495ED;
+
+  width: 250px;
+}
+.web{
+  background-color: gray;
+  height: 24px;
+  width: 252px;
+}
