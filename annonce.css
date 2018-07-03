@@ -1,12 +1,24 @@
 body{
-	
-}
-	
+	margin: 0;
 }
 .header{
 	padding: 20px;
-	padding-top: 140px;
+	padding-top: 78px;
 	background-color: #F0F0F0;
+}
+.mnu{
+		position: absolute;
+		justify-content: center;
+		width: 6rem;
+		height: 2rem;
+		left: 1rem;
+		color: #f56b2a;
+		border-radius: 4px;
+		background: #fff;
+		font-size: 1.4rem;
+		cursor: pointer;
+		text-transform: uppercase;
+		display: none;
 }
 
 .the_second{
@@ -18,6 +30,8 @@ body{
   right: 0;
   z-index: 9999;
   display: flex;
+  background-color: #f56b2a;
+  height: 107px;
 }
 .first,.ask,
 .there,.yes,
@@ -26,7 +40,7 @@ body{
   padding-left: px;
   color: white;
   display: initial;
-  padding: 20px;
+  padding: 10px;
 }
 .computer{
   margin-left: 20px;
