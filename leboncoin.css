@@ -77,7 +77,7 @@ h2{
 }
 
 .computer{
-  padding-left: 1px;
+  padding-left: 3px;
   border-right: solid 1px white;
 }
 .the_second{
@@ -139,6 +139,6 @@ a{
 }
 .web{
   background-color: gray;
-  height: 24px;
+  height: 20px;
   width: 252px;
 }
